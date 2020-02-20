@@ -1,10 +1,10 @@
 html {
-    margin: auto;
-    width: fit-content;
+  margin: auto;
+  width: fit-content;
 }
 #navContainer {
-    background-color: lightsalmon;
-    box-align: center;
+  background-color: lightsalmon;
+  box-align: center;
 }
 #navContainer, button, form, input {
     float: left;
