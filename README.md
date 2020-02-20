@@ -5,7 +5,7 @@ HTML
 CSS
 
 Live Demo
-https://github.com/MrSayyod/Youtube-clone-project/blob/example/youtube.html
+https://raw.githack.com/MrSayyod/Youtube-clone-project/example/youtube.html
 
 Getting Started
 To get a local copy up and running follow these simple example steps.
