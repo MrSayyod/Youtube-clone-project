@@ -35,6 +35,9 @@ html {
     border-radius: 5px;
     padding: 5px;
 }
+main {
+    background-color: blanchedalmond;
+}
 #sectionPart {
     float: left;
     margin: 10px;
@@ -150,13 +153,70 @@ a {
    }
 
 
-leftFooter, .leftFooter1 {
+.leftFooter{
     text-align: left;
 } 
-.rightFooter, .rightFooter1 {
+.rightFooter {
     text-align: right;
 }
-#footer1{
-    margin-right: 80px;
+.footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
+}
+
+.likeimg {
+    width: 15px;
+    height: 15px;
+}    
+.viewAndLikes, .avatarsub {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.avatar {
+    border-radius: 50%;
+}
+.subscribe {
+    color: white;
+    background-color: red;
+    padding: 14px;
+    width: fit-content;
+    font-size: 16px;
+}
+footer div {
+    background-color: lightgray;
+}
+.footer {
+align-items: center;
+}
+.footerbtn {
+    height: fit-content;
+    padding: 10px;
+    cursor: pointer;
+}
+.footerbtn1 {
+    height: 30px;
+    width: 200px;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
+    border-style: none;
+}
+.footerimg {
+    height:140%;
+}
+.leftFooter, .centerFooter, .rightFooter {
+    float: left;
+}
+
+.leftFooter1, .leftFooter1 > a {
+    margin: 20px 10px 10px 10px;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.rightFooter1, .rightFooter1> a  {
+    margin: 20px 10px 10px 10px;
+    color: gray;
 }
