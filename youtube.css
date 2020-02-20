@@ -4,7 +4,6 @@ html {
 }
 #navContainer {
   background-color: lightsalmon;
-  box-align: center;
 }
 #navContainer, button, form, input {
   float: left;
