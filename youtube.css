@@ -1,0 +1,162 @@
+html {
+    margin: auto;
+    width: fit-content;
+}
+#navContainer {
+    background-color: lightsalmon;
+    box-align: center;
+}
+#navContainer, button, form, input {
+    float: left;
+    margin: 10px;
+    text-align: justify;
+}
+#menu, #home, #apps, #notifications {
+    border-radius: 5px;
+    border-color: none;
+    border-style: none;
+    background-color: transparent;
+}
+
+#appsicon, #notifs {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+[type='text'] {
+    width: 40em;
+}
+.search {
+    background-color: lightgray;
+}
+.signin {
+    background-color: rgb(22, 122, 198);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+#sectionPart {
+    float: left;
+    margin: 10px;
+    
+}
+
+#cmt > h3 ,img {
+    display: inline;
+    align-items: center;
+    margin: 0;
+}
+
+#cmt > img {
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
+#userImg >img{
+    max-height: 45px;
+    max-width: 45px;
+    border-radius: 50%;
+}
+#userImg {
+    width: 15%;
+}
+#content {
+    margin: 0;
+    width: 75%;
+}
+#cmtVal > h4 , p{
+    margin: 0;
+}
+
+#likeImg > img {
+    max-height: 60px;
+    max-width: 120px;
+}
+
+#cmtBox{
+        margin-top: 1em;
+        display: flex;
+        flex-direction: row;
+    
+}
+
+
+
+#vidDes{
+
+    overflow-wrap: break-word;
+}
+
+#asidePart {
+float: left;
+width: 500px;
+margin: 10px;
+}
+a {
+    text-decoration: none;
+}
+#nextVideo {
+    float: left;
+    margin: 10px;
+}
+.videoImage {
+    float: left;
+    overflow: hidden;
+}
+.vidInfo {
+    overflow: hidden;
+    margin: 10px;
+    line-height: 20px;
+}
+.vidInfo > h4 {
+    color: black;
+    font-size: 12px;
+} 
+.vidInfo > h5 {
+    color: black;
+    font-size: 10px;
+}
+.vidInfo > p {
+    color: black;
+    font-size: 8px;
+}
+ .insideImage {
+     height: 140px;
+     width: 246px;
+     margin: 10px;
+ }
+  #upcoming {
+      display: flex;
+      flex-direction: column;
+  }
+  #foot{
+    width: 100%;
+  }
+  footer {
+ /*  position: fixed;  */
+ 
+    clear: both; 
+    bottom: 0;
+    left: 0;
+    height: 70px;
+
+    width: 100%;
+  }
+
+  #footerBox{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+   }
+
+
+leftFooter, .leftFooter1 {
+    text-align: left;
+} 
+.rightFooter, .rightFooter1 {
+    text-align: right;
+}
+#footer1{
+    margin-right: 80px;
+    
+}
