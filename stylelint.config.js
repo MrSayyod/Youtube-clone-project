@@ -82,7 +82,7 @@ module.exports = {
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
     "property-case": "lower",
-    "rule-empty-line-before": [ "always-multi-line", {
+    "rule-empty-line-before": [ "never-multi-line", {
       except: ["first-nested"],
       ignore: ["after-comment"],
     } ],
