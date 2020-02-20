@@ -4,31 +4,31 @@ The project from Microverse curriculum: "Embedding Images and Video"
 HTML
 CSS
 
-Live Demo
+#Live Demo
 https://raw.githack.com/MrSayyod/Youtube-clone-project/example/youtube.html
 
-Getting Started
+#Getting Started
 To get a local copy up and running follow these simple example steps.
 
-Prerequisites
+#Prerequisites
 A browser of your choice preferrably Chrome.
 
-Setup
+#Setup
 Fork this project to your local machine
 
-Authors
-👤 Sayyod
+#Authors
+#👤 Sayyod
 
 Github: @MrSayyod
 
-👤 Karthick
+#👤 Karthick
 
 Github: @karthi07
 
-🤝 Contributing
+#🤝 Contributing
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the issues page.
 
-Show your support
+#Show your support
 Give a ⭐️ if you like this project!
