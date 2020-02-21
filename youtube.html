@@ -13,18 +13,18 @@
             <!-- here we will create a navbar-->
             <div id="navContainer">
                 <button id="menu">
-                    <img src="icons/menu-icon.svg" alt="">
+                    <img src="icons/menu-icon.svg" alt="menuIcon">
                 </button>
                 <button id="home">
-                    <img src="icons/logo.png" alt="">
+                    <img src="icons/logo.png" alt="logoIcon">
                 </button>
                 <form id="form" action="youtube.html">
                     <label for="search">
-                        <input type="text" placeholder="Search">
+                        <input id="search" type="text" placeholder="Search">
                     </label>
-                    <button id="search" class="search">Search</button>
-                    <button id="notifications"> <img id="notifs" src="icons/notif.png" alt=""></button>
-                    <button id="apps"> <img id="appsicon" src="icons/appsicon.png" alt=""></button>
+                    <button id="searchbtn" class="searchbtn">Search</button>
+                    <button id="notifications"> <img id="notifs" src="icons/notif.png" alt="notifIcon"></button>
+                    <button id="apps"> <img id="appsicon" src="icons/appsicon.png" alt="appsIcon"></button>
                     <button id="signIn" class="signin"> Sign In</button>
                 </form>
             </div>
@@ -36,7 +36,7 @@
         <div id="bodyContainer">
             <div id="sectionPart">
                 <section id="iframe">
-                <iframe width="650" height="415" src="https://www.youtube.com/embed/Kopyc23VfSw" 
+                <iframe class="iframe1" src="https://www.youtube.com/embed/Kopyc23VfSw" 
     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
      allowfullscreen></iframe>
      <article id="article">
@@ -50,35 +50,35 @@
            <p>6 253 896 views 20.02.2020 y </p>
         </div>    
         <div class="likes">
-            <button id="likebtn"><img  class="likeimg" src="icons/like.svg" alt="likes">123K</button>
+            <button id="likebtn"><img  class="likeimg" src="icons/like.svg" alt="likeIcon">123K</button>
             <button id="dislikebtn">
-                <img class="likeimg" src="icons/dislike.svg" alt="dislikes">
+                <img class="likeimg" src="icons/dislike.svg" alt="dislikeIcon">
             10K</button>
             <button id="sharebtn">
-                <img class="likeimg" src="icons/share.png" alt="">
+                <img class="likeimg" src="icons/share.png" alt="shareIcon">
             Share</button>
         </div>
         </div>
     <hr>
         <div id="vidDes">
-            <div class="avatarsub"><h3> <img class="avatar" src="https://yt3.ggpht.com/a/AGF-l79EKEo-u0CN_HAwNrNaUdrHJ1nxPbWcX20n=s48-c-k-c0xffffffff-no-rj-mo" alt="">Movieclips Trailers</h3>
+            <div class="avatarsub"><h3> <img class="avatar" src="https://yt3.ggpht.com/a/AGF-l79EKEo-u0CN_HAwNrNaUdrHJ1nxPbWcX20n=s48-c-k-c0xffffffff-no-rj-mo" alt="avatarIcon">Movieclips Trailers</h3>
            <button class="subscribe"> Subscribe </button>
         </div>
             <p>Check out the official Fast & Furious 9 Trailer starring Vin Diesel!.</p>
         </div>
         <hr>
         <div id="cmt" >
-           <h3>15,800 Comments </h3> <img src="icons/menu-icon.svg"></img>
+           <h3>15,800 Comments </h3> <img src="icons/menu-icon.svg" alt="sortIcon">
            <h3>SORT BY</h3>
         </div>
         <br>
-        <div id="cmtBox">
-            <div id="userImg"> <img  src="icons/image.png" alt=""></div> 
-            <div id="content">
-                <div id="cmtVal">
+        <div class="cmtBox">
+            <div class="userImg"> <img  src="icons/image.png" alt="userIcon"></div> 
+            <div class="content">
+                <div class="cmtVal">
                     <h4> User Name</h4>
                     <p>The villain  is going to be hard to defeat especially when you can't see him</p> 
-                    <div id="likeImg"> <img  src="icons/like.png" alt=""></div>
+                    <div class="likeImg"> <img  src="icons/like.png" alt="ldIcon"></div>
                     <a href="#"> View 10 replies </a>   
                 </div>
             </div>
@@ -86,25 +86,25 @@
 
         </div>
 
-        <div id="cmtBox">
-            <div id="userImg"> <img  src="icons/image.png" alt="">  </div> 
-            <div id="content">
-                <div id="cmtVal">
+        <div class="cmtBox">
+            <div class="userImg"> <img  src="icons/image.png" alt="userIcon">  </div> 
+            <div class="content">
+                <div class="cmtVal">
                     <h4> User Name</h4>
                     <p>The villain  is going to be hard to defeat especially when you can't see him</p>  
-                    <div id="likeImg"> <img  src="icons/like.png" alt=""></div> 
+                    <div class="likeImg"> <img  src="icons/like.png" alt="ldIcon"></div> 
                  <a href="#"> View 10 replies </a>
                 </div>
             </div>
         </div>
 
-        <div id="cmtBox">
-            <div id="userImg"> <img  src="icons/image.png" alt=""></div> 
-            <div id="content">
-                <div id="cmtVal">
+        <div class="cmtBox">
+            <div class="userImg"> <img  src="icons/image.png" alt="userIcon"></div> 
+            <div class="content">
+                <div class="cmtVal">
                     <h4> User Name</h4>
                     <p>The villain is going to be hard to defeat especially when you can't see him</p> 
-                    <div id="likeImg"> <img  src="icons/like.png" alt=""></div> 
+                    <div class="likeImg"> <img  src="icons/like.png" alt="ldIcon"></div> 
                     <a href="#"> View 10 replies </a>
                 </div>
             </div>
@@ -117,7 +117,7 @@
             <aside id="upcoming">
                 <div class="nextVideos">
                     <a href="https://www.youtube.com/watch?v=iO4MaSmuxTs&t=908s">
-                    <div class="videoImage"> <img class="insideImage" src="https://i.ytimg.com/vi/iO4MaSmuxTs/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLDNpp3McKTM2ILRM79hllJEFh6udw" alt="">
+                    <div class="videoImage"> <img class="insideImage" src="https://i.ytimg.com/vi/iO4MaSmuxTs/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLDNpp3McKTM2ILRM79hllJEFh6udw" alt="video1">
                     </div>
                     <div class="vidInfo">
                         <h4> TOP UNCOMING FILM TRAILERS 2020</h4>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="nextVideos">
                     <a href="https://www.youtube.com/watch?v=CZp6HjD8_sE">
-                    <div class="videoImage"> <img class="insideImage" src="https://i.ytimg.com/vi/CZp6HjD8_sE/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLD5bcEl3CN6QHlUSlAiJw1qf5anQA" alt="">
+                    <div class="videoImage"> <img class="insideImage" src="https://i.ytimg.com/vi/CZp6HjD8_sE/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLD5bcEl3CN6QHlUSlAiJw1qf5anQA" alt="video2">
                     </div>
                     <div class="vidInfo">
                         <h4> THE BEST UNCOMING MOVIES 2020 (TRAILERS)</h4>
@@ -139,7 +139,7 @@
                 </div>
                 <div class="nextVideos">
                     <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ">
-                    <div class="videoImage"> <img class="insideImage" src="https://i.ytimg.com/vi/LXb3EKWsInQ/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLBUZmcio1XRr3ahn5xwdnVIHMER9Q" alt="">
+                    <div class="videoImage"> <img class="insideImage" src="https://i.ytimg.com/vi/LXb3EKWsInQ/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLBUZmcio1XRr3ahn5xwdnVIHMER9Q" alt="video3">
                     </div>
                     <div class="vidInfo">
                         <h4> COSTA RICA IN 4K 60fps HDR (ULTRA HD)</h4>
@@ -150,7 +150,7 @@
                 </div>
                 <div class="nextVideos">
                     <a href="https://www.youtube.com/watch?v=wzubcjYeTVQ">
-                    <div class="videoImage"> <img class="insideImage" src="https://i.ytimg.com/vi/wzubcjYeTVQ/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLDPyWl340ly8gCqP2YtgdMrY3CF5w" alt="">
+                    <div class="videoImage"> <img class="insideImage" src="https://i.ytimg.com/vi/wzubcjYeTVQ/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLDPyWl340ly8gCqP2YtgdMrY3CF5w" alt="video4">
                     </div>
                     <div class="vidInfo">
                         <h4> NO TIME TO DIE Trailer (4K Ultra HD) NEW 2020</h4>
@@ -161,7 +161,7 @@
                 </div>
                 <div class="nextVideos">
                     <a href="https://www.youtube.com/watch?v=joZbEuByMR4">
-                    <div class="videoImage"> <img class="insideImage" src="https://i.ytimg.com/vi/joZbEuByMR4/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLDZEx5r7525hoaijrdCR2Jm2OQ-7w" alt="">
+                    <div class="videoImage"> <img class="insideImage" src="https://i.ytimg.com/vi/joZbEuByMR4/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLDZEx5r7525hoaijrdCR2Jm2OQ-7w" alt="video5">
                     </div>
                     <div class="vidInfo">
                         <h4> The Best Upcoming NEW Movies 2019 & 2020 (Trailer)</h4>
@@ -172,7 +172,7 @@
                 </div>
                 <div class="nextVideos">
                     <a href="https://www.youtube.com/watch?v=yGY484EPe5U">
-                    <div class="videoImage"> <img class="insideImage" src="https://i.ytimg.com/vi/yGY484EPe5U/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLByv1Pek8HNQ6aBZuDim0g5390ofg" alt="">
+                    <div class="videoImage"> <img class="insideImage" src="https://i.ytimg.com/vi/yGY484EPe5U/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLByv1Pek8HNQ6aBZuDim0g5390ofg" alt="video6">
                     </div>
                     <div class="vidInfo">
                         <h4>WONDER WOMAN 2 Official Trailer (NEW 2020) Gal Gadot</h4>
@@ -183,7 +183,7 @@
                 </div>
                 <div class="nextVideos">
                     <a href="https://www.youtube.com/watch?v=uG1JIznMUmA">
-                    <div class="videoImage"> <img class="insideImage" src="https://i.ytimg.com/vi/uG1JIznMUmA/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLCRfh-W56UBR553eIPYmzQSXERxQQ" alt="">
+                    <div class="videoImage"> <img class="insideImage" src="https://i.ytimg.com/vi/uG1JIznMUmA/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLCRfh-W56UBR553eIPYmzQSXERxQQ" alt="video7">
                     </div>
                     <div class="vidInfo">
                         <h4> TOP GUN 2 MAVERICK: 4 Minute Trailers (4K Ultra HD) NEW 2020</h4>
@@ -202,7 +202,7 @@
         <div class="footer">
             <div class="leftFooter">
             <button class="footerbtn1">
-                <img class="footerimg" src="icons/logo.png" alt="">
+                <img class="footerimg" src="icons/logo.png" alt="footerLogoIcon">
             </button>
             <button class="footerbtn">Language: English</button>
         </div>

@@ -2,9 +2,6 @@ html {
   margin: auto;
   width: fit-content;
 }
-#navContainer {
-  background-color: lightsalmon;
-}
 #navContainer, button, form, input {
   float: left;
   margin: 10px;
@@ -19,11 +16,14 @@ html {
 #appsicon, #notifs {
   max-width: 25px;
   max-height: 25px;
+  border-color: none;
+  border-style: none;
+  background-color: transparent
 }
 [type='text'] {
   width: 40em;
 }
-.search {
+.searchbtn {
   background-color: lightgray;
 }
 .signin {
@@ -39,6 +39,10 @@ main {
   float: left;
   margin: 10px;
 }
+.iframe1 {
+  width: 650px;
+  height: 415px;
+}
 #cmt > h3, img {
   display: inline;
   align-items: center;
@@ -48,26 +52,26 @@ main {
   margin-left: 2em;
   margin-right: 1em;
 }
-#userImg > img {
+.userImg > img {
   max-height: 45px;
   max-width: 45px;
   border-radius: 50%;
 }
-#userImg {
+.userImg {
   width: 15%;
 }
-#content {
+.content {
   margin: 0;
   width: 75%;
 }
-#cmtVal > h4, p {
+.cmtVal > h4, p {
   margin: 0;
 }
-#likeImg > img {
+.likeImg > img {
   max-height: 60px;
   max-width: 120px;
 }
-#cmtBox {
+.cmtBox {
   margin-top: 1em;
   display: flex;
   flex-direction: row;
@@ -98,15 +102,15 @@ a {
 }
 .vidInfo > h4 {
   color: black;
-  font-size: 12px;
+  font-size: 14px;
 }
 .vidInfo > h5 {
   color: black;
-  font-size: 10px;
+  font-size: 12px;
 }
 .vidInfo > p {
   color: black;
-  font-size: 8px;
+  font-size: 10px;
 }
 .insideImage {
   height: 140px;
