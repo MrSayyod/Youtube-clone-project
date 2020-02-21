@@ -18,7 +18,7 @@ html {
   max-height: 25px;
   border-color: none;
   border-style: none;
-  background-color: transparent
+  background-color: transparent;
 }
 [type='text'] {
   width: 40em;
